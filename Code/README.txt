@@ -37,6 +37,9 @@ These script generates principal components analyses of the genetic data and per
 PUBLISH_MantelTest_DistanceMatrix.R
 This script generates a Mantel test on the song feature distance matrix versus the geographic distance matrix of the Spotted and Eastern towhee song data. It also generates a Mantel test on the genetic distance matrix versus the geographic distance matrix of the aligned genetic sequences from the Spotted and Eastern towhee mitochondrial genomes.
 
+PUBLISH_SongFeatureGradientMaps.R
+This script generates song feature gradient maps, each displaying the towhee recordings plotted spatially with points color-coded on a gradient scale to represent the value of the song feature.
+
 These data files are called in the preceding scripts:
 PUBLISH_All_XCandML_songdata_with_overlapzone_4.1.23_withSamplingRateandFileType_unique.csv
 PUBLISH_Breeding_XCandML_songdata_with_overlapzone_4.1.23_withSamplingRateandFileType_unique.csv
